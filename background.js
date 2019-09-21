@@ -1,3 +1,3 @@
-chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-    chrome.tabs.sendMessage(tabId, {greeting: "hello"});
+chrome.tabs.onUpdated.addListener((id) => {
+    chrome.tabs.sendMessage(id, {});
 });
