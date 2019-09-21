@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "Google Photos Force HighRes",
+	"version": "0.0.1",
+	"offline_enabled": true,
+	"description": "Force Google Photos to show image in highest resolution.",
+	"short_name": "gPhotos HighRes",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://photos.google.com/*"
+			],
+			"js": [
+				"content.js"
+			],
+			"run_at": "document_idle",
+			"all_frames": false
+		}
+    ],
+    "background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"icons": {
+		"16": "images/logo_16.png",
+		"48": "images/logo_48.png",
+		"128": "images/logo_128.png"
+	}
+}
