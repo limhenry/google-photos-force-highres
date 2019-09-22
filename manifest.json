@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Force HighRes for Google Photos™",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"offline_enabled": true,
 	"description": "Force Google Photos to show image in highest resolution.",
 	"short_name": "Force HighRes for Google Photos™",
@@ -16,6 +16,9 @@
 			"run_at": "document_idle",
 			"all_frames": false
 		}
+	],
+	"permissions": [
+        "storage"
     ],
     "background": {
 		"scripts": ["background.js"],
