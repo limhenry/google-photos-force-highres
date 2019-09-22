@@ -2,7 +2,7 @@
   <img width="192" src="https://i.imgur.com/TPPVfRC.png"></img>
 </p>
 
-# Google Photos Force HighRes
+# Force HighRes for Google Photos™
 
 > A Chrome Extension that force Google Photos to show image in highest resolution.
 
